@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic page setup: charset, viewport, title, stylesheet, favicon -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hind Almutlaq</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/titlelogo.png" type="image/png" />
+</head>
+<body>
+  <!-- Main navigation bar -->
+  <header class="navbar">
+    <div class="logo">
+      <!-- Logo linking to home section -->
+      <a href="#home">
+        <img src="img/logo.png" alt="Hind Logo" class="logo-img" />
+      </a>
+    </div>
+
+    <!-- Navigation links -->
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#coop">COOP</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Button to toggle dark mode -->
+    <button id="theme-toggle" aria-label="Toggle Dark Mode" style="background:none; border:none; cursor:pointer; font-size:1.5rem; color: var(--link-color);">
+      🌙
+    </button>
+
+    <!-- Hamburger menu button for mobile -->
+    <button id="burger" class="burger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <!-- Mobile menu, hidden by default -->
+    <nav id="mobileMenu" class="mobile-menu">
+      <!-- Button to close mobile menu -->
+      <button id="closeMenu" aria-label="Close menu">✕</button>
+      <ul class="mobile-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#coop">COOP</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home section with main heading -->
+  <section id="home" class="section home-section fade-init">
+    <h1>Hind Almutlaq</h1>
+  </section>
+
+  <!-- About section with personal introduction -->
+  <section class="section about-section fade-init">
+    <div class="container">
+      <div class="content" style="max-width: 700px; margin: auto; text-align: justify; line-height: 1.6; font-size: 1.1rem; color: var(--text-color);">
+        <p>
+          My name is Hind Almutlaq, an Information Technology student at <a href="https://www.qu.edu.sa/" target="_blank" style="color: var(--link-color); text-decoration: underline;">Qassim University</a>.  
+          I am interested in developing practical skills in software development and problem-solving.  
+          I am continuously working to enhance my technical knowledge and contribute to meaningful projects in the tech field.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates section displaying images -->
+  <section id="certificates" class="section fade-init">
+    <div class="container">
+      <h2>Certificates</h2>
+      <div class="gallery certificates-gallery">
+        <img class="stagger-fade" src="img/cert1.png" alt="Certificate 1" />
+        <img class="stagger-fade" src="img/cert2.png" alt="Certificate 2" />
+        <img class="stagger-fade" src="img/cert3.png" alt="Certificate 3" />
+        <img class="stagger-fade" src="img/cert4.png" alt="Certificate 4" />
+        <img class="stagger-fade" src="img/cert5.png" alt="Certificate 5" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects section with project descriptions and images -->
+  <section id="projects" class="section fade-init">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <!-- LeafJoy project details -->
+      <div class="project-group">
+        <h3>LeafJoy</h3>
+        <p class="project-summary">
+          LeafJoy is an intelligent garden management system designed to automate irrigation by monitoring real-time soil moisture levels.
+        </p>
+        <div class="project-leafjoy">
+          <div class="leafjoy-item">
+            <img class="stagger-fade" src="img/leaf1.png" alt="LeafJoy Registration Page" />
+            <p>The registration page allows users to create personalized accounts to manage their garden effectively.</p>
+          </div>
+          <div class="leafjoy-item">
+            <img class="stagger-fade" src="img/leaf2.png" alt="LeafJoy Main Dashboard" />
+            <p>The main dashboard presents an overview of the application’s services and the current status of the garden.</p>
+          </div>
+          <div class="leafjoy-item">
+            <img class="stagger-fade" src="img/leaf3.png" alt="LeafJoy Monthly Calendar" />
+            <p>The monthly calendar helps users track plant health and irrigation schedules efficiently.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sky Airlines project details -->
+      <div class="project-group">
+        <h3>Sky Airlines</h3>
+        <p class="project-summary">
+          A professional flight booking system where users can search and book airline tickets easily. Designed with a user-friendly interface and smooth experience.
+        </p>
+        <div class="project-sky">
+          <div class="leafjoy-item stagger-fade">
+            <img src="img/sky1.png" alt="Sky Airlines - Search Page" />
+            <p>Search for flights based on destination and date.</p>
+          </div>
+          <div class="leafjoy-item stagger-fade">
+            <img src="img/sky2.png" alt="Sky Airlines - Flight Results" />
+            <p>View and filter available flights with real-time prices.</p>
+          </div>
+          <div class="leafjoy-item stagger-fade">
+            <img src="img/sky3.png" alt="Sky Airlines - Booking Page" />
+            <p>Complete booking with passenger details and secure checkout.</p>
+          </div>
+          <div class="leafjoy-item stagger-fade">
+            <img src="img/sky4.png" alt="Sky Airlines - Confirmation Page" />
+            <p>Receive confirmation and e-ticket instantly after booking.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COOP training section with description -->
+  <section id="coop" class="section fade-init">
+    <div class="container">
+      <h2>COOP Training</h2>
+      <p style="max-width: 700px; margin: auto; text-align: justify; line-height: 1.6; font-size: 1.1rem; color: var(--text-color);">
+        I completed my COOP training at <strong>Panorama Al-Qassim for Programming and Design</strong>.<br /><br />
+
+        Panorama Al-Qassim is a leading Saudi company that specializes in software development and digital design solutions.<br />
+        The company focuses on creating websites, mobile applications, and management software, aiming to become one of the prominent tech hubs in Saudi Arabia and the Middle East.<br /><br />
+
+        It is committed to providing high-quality, diverse services to clients, and actively supports the tech community through knowledge exchange and collaboration across different programming specializations.<br />
+        The company also offers training programs for fresh graduates to enhance their technical skills and prepare them for the job market.<br /><br />
+
+        Panorama emphasizes continuous improvement and the development of solutions that address real societal and business needs, contributing to a digitally advanced and intellectually aware community.<br /><br />
+
+        For more information, visit their website: 
+        <a href="https://panorama-q.com/" target="_blank" style="color: var(--link-color);">panorama-q.com</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact section with a form -->
+  <section id="contact" class="section fade-init">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form class="contact-form" onsubmit="handleSubmit(event)" method="post">
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea rows="5" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer with copyright notice -->
+  <footer>
+    <p>© 2025 Hind Almutlaq. All rights reserved</p>
+  </footer>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
