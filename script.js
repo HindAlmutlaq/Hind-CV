@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => el.classList.add('visible'), i * 150);
   });
 
-  /* ==== Mobile menu toggle ==== */
+  // Mobile menu toggle
   const burger = document.getElementById('burger');
   const menu = document.getElementById('mobileMenu');
   const closeBtn = document.getElementById('closeMenu');
